@@ -2,7 +2,7 @@
   "main": "../bindings/node/objectscript_core",
   "private": true,
   "scripts": {
-    "build": "tree-sitter generate",
+    "build": "tree-sitter generate --abi=14",
     "prestart": "tree-sitter build --wasm",
     "start": "tree-sitter playground"
   }
